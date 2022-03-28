@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <link rel="stylesheet" href="Test.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+     
+    </head>
+    <body>
+        <div class="testimonials">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer"></div>
+                                <div class="text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, necessitatibus. Aperiam soluta assumenda amet voluptas. Maxime, quis alias at tenetur adipisci sapiente a autem expedita debitis repellat accusamus facilis eius.</p>
+                                 <div class="imgBx">
+                                 <img src="right.png" alt="a">
+                                </div>
+                                <div class="details">
+                                <h2>Sunil Sarjal<br><span>BIG DATA</span></h2>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer"></div>
+                                <div class="text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, necessitatibus. Aperiam soluta assumenda amet voluptas. Maxime, quis alias at tenetur adipisci sapiente a autem expedita debitis repellat accusamus facilis eius.</p>
+                                 <div class="imgBx">
+                                 <img src="right.png" alt="a">
+                                </div>
+                                <div class="details">
+                                <h2>Tushar Dhanurkar<br><span>MERN STACK</span></h2>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer"></div>
+                                <div class="text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, necessitatibus. Aperiam soluta assumenda amet voluptas. Maxime, quis alias at tenetur adipisci sapiente a autem expedita debitis repellat accusamus facilis eius.</p>
+                                 <div class="imgBx">
+                                 <img src="right.png" alt="a">
+                                </div>
+                                <div class="details">
+                                <h2>Virat Kholi<br><span>JAVA DEVELOPER</span></h2>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="layer"></div>
+                                <div class="text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, necessitatibus. Aperiam soluta assumenda amet voluptas. Maxime, quis alias at tenetur adipisci sapiente a autem expedita debitis repellat accusamus facilis eius.</p>
+                                 <div class="imgBx">
+                                 <img src="right.png" alt="a">
+                                </div>
+                                <div class="details">
+                                <h2>Sachin Tendulkar<br><span>SDLC SOFTWARE</span></h2>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 1,
+          coverflowEffect: {
+            rotate:0,
+            stretch: 0,
+            depth:0,
+            modifier: 1,
+            slideShadows: true,
+          },
+          loop: true,
+          breakpoints: {
+	640: {
+	slidesPerView: 1,
+	spaceBetween: 20,
+	},
+	768: {
+	slidesPerView: 2,
+	spaceBetween: 40,
+	},
+	1024: {
+	slidesPerView: 3,
+	spaceBetween: 50,
+   },
+  },
+
+        });
+      </script>
+    </body>
+    </html>
